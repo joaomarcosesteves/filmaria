@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+<h1 align="center">
+<br>
+  <img src="src/assets/readme/filmaria_logo.png" alt="filmaria" width="120">
+<br>
+<br>
+FILMARIA
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Escolha o filme e veja sua Sinopse ou seu trailer no Youtube.</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-In the project directory, you can run:
+<div>
+  <img src="src/assets/readme/filmaria.gif.gif" alt="filmaria" height="425">
+</div>
 
-### `npm start`
+<hr />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Descrição
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Filmaria é um projeto onde temos nossa lista de filmes e você pode ver mais informações sobre o filme, favoritar ou ser redirecionado para ver o seu trailer no Youtube.
 
-### `npm test`
+Foi um projeto desenvolvido para praticar a leitura de API's e utilizar o React Hooks para fazer gestão das States. Também foi utilizado Styled Components para fazer a estilização da aplicação.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features e Status do Projeto
 
-### `npm run build`
+- [x] Configurando API;
+- [x] Finalizando Projeto;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### **O Projeto já foi Finalizado!**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Clonar Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para clonar e poder instalar o projeto em sua máquina, você precisará de algumas ferramentas, como:
 
-### `npm run eject`
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Passo a Passo para poder executar a aplicação:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Clonar o projeto;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+ git clone <repositorio>
+```
 
-## Learn More
+- Acessar pasta do projeto pelo terminal/cmd;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd .../movieproject
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Instale as dependências do projeto (arquivo package.json);
 
-### Code Splitting
+```bash
+npm install <todas dependências>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Execute a aplicação;
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+O Projeto iniciará de forma local na porta padrão do seu sistema.
 
-### Making a Progressive Web App
+## Tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### Advanced Configuration
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [API](https://sujeitoprogramador.com/r-api/?api=filmes/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Autor
 
-### Deployment
+Feito por **João Marcos Esteves**, Desenvolvedor Web.
+Aprendendo, praticando, desenvolvendo e criando.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Entre em Contato:
 
-### `npm run build` fails to minify
+- [Linkedin](https://www.linkedin.com/in/joao-marcos-esteves-pereira-a5b2b317a)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
